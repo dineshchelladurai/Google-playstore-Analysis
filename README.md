@@ -1,11 +1,10 @@
 ## Google Play Store Data Analysis - Project Documentation
 
-1. Project Overview
-Objective
+# 1. Project OverviewObjective
 The goal of this project is to analyze Google Play Store data to extract meaningful insights about app ratings, installs, revenue, and user engagement. The analysis aims to identify trends, compare free vs. paid apps, and determine factors influencing app success.
 
 
-3. Dataset Details
+# 2. Dataset Details
 Dataset Name
 Play Store Data Cleaned.csv
 Source
@@ -22,7 +21,7 @@ Key Columns
 - Revenue
 
 - 
-4. Data Cleaning & Preprocessing
+# 3. Data Cleaning & Preprocessing
 Handling Missing Values
 - Removed rows with missing critical values (Rating, Installs, Reviews).
 - Imputed missing values where necessary (e.g., replacing null ratings with category-wise averages).
@@ -38,7 +37,7 @@ Feature Engineering
 - Categorized apps based on installs (e.g., Low, Medium, High installs).
 - Extracted Year from the 'Last Updated' column to analyze trends over time.
 - 
-5. Power BI Dashboard Implementation
+# 4. Power BI Dashboard Implementation
 Visualizations & Interactivity
 - Used Bar, Column, Pie, Scatter, and Line Charts.
 - Implemented Slicers for Category, Free/Paid, Installs Range, and Rating Range.
@@ -55,7 +54,7 @@ Free_Paid_Percentage =
         0
     )
 ```
-6. Conclusion & Future Improvements
+# 5. Conclusion & Future Improvements
 Key Findings
 ✅ Education & Productivity apps perform well in ratings.
 ✅ Social media & entertainment apps lead in installs.
@@ -67,12 +66,12 @@ Future Enhancements
 - Use machine learning to predict app success based on historical data.
 - Implement a real-time dashboard with API integration for live tracking.
 - 
-7. Tools Used
+# 6. Tools Used
 - Python (Pandas, NumPy, Plotly) - Data Preprocessing & Analysis
 - Power BI - Dashboard & Visualization
 - Excel - Initial Data Cleaning
 - 
-8. References & Credits
+# 7. References & Credits
 - Data Source: Google Play Store
 - Python Libraries: Pandas, NumPy, Matplotlib, Seaborn
 - Power BI Dashboard for visualization & insights
