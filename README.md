@@ -1,5 +1,5 @@
 ## Google Play Store Data Analysis - Project Documentation
-<a href="https://github.com/dineshchelladurai/dataanalystdashboard/blob/main/Google_Play_Store_Analysis.pbix">Dashboard</a>
+<a href="https://github.com/dineshchelladurai/dataanalystdashboard/blob/main/Dashboard.png">Dashboard</a>
 # 1. Project OverviewObjective
 The goal of this project is to analyze Google Play Store data to extract meaningful insights about app ratings, installs, revenue, and user engagement. The analysis aims to identify trends, compare free vs. paid apps, and determine factors influencing app success.
 
